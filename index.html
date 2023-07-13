@@ -31,6 +31,16 @@
           $("#nav").css("background", "none");
         }
       });
+
+      goToProjects=function(projectName){
+        if(projectName=="MedKick")
+        {localStorage.setItem("projectData","At our software development company, we're at the forefront of transforming healthcare through technology. Recognizing the critical need for efficient, remote healthcare solutions, we have designed and built a cutting-edge remote patient monitoring system. This platform enables doctors to continuously monitor patients' health parameters in real-time, no matter the distance, resulting in timely care and intervention. Our system enhances patient-doctor communication, improves the management of chronic conditions, and allows for personalized, preventative care plans. We have implemented top-tier security measures to ensure data privacy, honoring our commitment to safety and responsibility. With our system, doctors can deliver high-quality care, patients can feel more connected and involved in their health management, and together, we are shaping a future where quality healthcare is more accessible and effective than ever before")
+        localStorage.setItem("projectTitle","MedKick");
+      }else
+        {localStorage.setItem("projectData","Our software development company has designed a robust Apartment Management Software (AMS) to revolutionize property management. Recognizing the complexities of managing hundreds of apartments, we developed a comprehensive platform that streamlines tasks, enhances communication, and promotes efficiency.\n The AMS is a one-stop solution handling every facet of property management. It caters to tenant management, offering automated rent collection, maintenance request handling, lease agreement storage, and more. For property owners, it provides a real-time dashboard displaying financial analytics, property status, and tenant information.\nCritical to our software's functionality is the integration of smart technology, enabling property managers to control smart devices across properties from a single platform. This feature ranges from managing security systems to energy efficiency measures, facilitating seamless operation of smart apartments.\nIn line with our commitment to safety and responsibility, we've embedded top-tier security measures to protect sensitive data, and we provide ongoing support and updates to ensure optimal performance. Our Apartment Management Software not only simplifies property management but also fosters a better living environment for residents.")
+        localStorage.setItem("projectTitle","PLH")   
+    }window.location.href="projects.html"
+      }
     </script>
   </head>
   <body style="position: relative; height: auto">
@@ -333,7 +343,7 @@
             height="100"
           />
           <br />
-          <a href="" style="font-weight: 700; margin: 0"
+          <a href="projects.html" style="font-weight: 700; margin: 0" onclick="goToProjects('MedKick')"
             >MedKick</a
           >
           <p style="margin: 0">Jul 6, 2023</p>
@@ -346,12 +356,12 @@
             height="100"
           />
           <br />
-          <a href="" style="font-weight: 700; margin: 0"
+          <a href="projects.html" style="font-weight: 700; margin: 0" onclick="goToProjects('PLH')"
             >LPH</a
           >
           <p style="margin: 0">Jul 13, 2023</p>
         </div>
-        <div class="latest-update-img-container">
+        <!-- <div class="latest-update-img-container">
           <img
             src="/introducing-the-chatgpt-app-for-ios.webp"
             alt=""
@@ -376,7 +386,7 @@
             >New ways to manage your data in ChatGPT</a
           >
           <p style="margin: 0">Apr 25, 2023</p>
-        </div>
+        </div> -->
       </div>
     </div>
 

@@ -1,0 +1,13 @@
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+p{
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 40px;
+}
