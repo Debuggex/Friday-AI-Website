@@ -1,0 +1,403 @@
+.header{
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    opacity: 50%;
+}
+
+.menu{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: fixed;
+    z-index: 25;
+    right: 0;
+    left: 0;
+}
+
+video{
+    object-fit: fill;
+}
+
+.nav-bar{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: fixed;
+    z-index: 25;
+    right: 0;
+    left: 0;
+}
+
+.testimony-text{
+    font-size: 56px; margin-right: 20px;font-family: serif;
+}
+
+.menuTC{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: fixed;
+    z-index: 25;
+    right: 0;
+    left: 0;
+}
+
+.nav-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a{
+    font-size: 18px;
+    margin: 0 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+h1{
+    font-family: serif;
+}
+
+
+a:hover{
+    text-decoration-color: white;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+body{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-menu{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.last-menu {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p{
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 0 5px;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.2s;
+}
+
+.hero-text{
+    width: 75%;
+    font-size: 70px;
+    height: 20%;
+    color: white;
+    position: absolute;
+    font-weight: 500;
+    top: -250px;
+    left: 16%;
+    z-index: 24;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 70px;
+}
+
+.header-end{
+    margin: 20px 0;
+    margin-right: 5%;
+}
+
+.row-custom{
+    display: grid;
+    flex-direction: row;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.latestUpdates{
+    padding: 15px;
+}
+
+.latest-update-img-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.latest-update-img-container{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 30px;
+}
+
+img{
+    width: 100%;
+    height: inherit;
+}
+
+.SAR-header{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony-header{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.SAR{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.separator{
+    padding: 0 20px;
+}
+
+.footer{
+    padding: 15px;
+}
+
+.footer-logo{
+    width: 30%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer-content{
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialLinks{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialItems{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-content-container{
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.join-text{
+    font-size: 72px;
+    margin-right: 20px;
+    margin: 0 30px;
+    font-family: serif;
+}
+
+.TC{
+    display: flex; flex-direction: column; width: 30%;
+}
+
+.footer-heading{
+    font-size: 18px; margin: 0
+}
+
+
+@media only screen and (max-width: 768px){
+    .header-end{
+        width: 95%;
+    }
+    .row-custom{
+        width: 100vw;
+        grid-template-columns: auto;
+    }
+    .SAR{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .SAR-header{
+        width: 90%;
+    }
+
+    .latest-update-img-row{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .latest-update-img-container{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h2{
+        margin: 0;
+    }
+
+    a{
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .separator{
+        padding: 20px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .footer-content{
+        width: 50%;
+    }
+
+    .footer-content-container{
+        grid-template-columns: 1fr 1fr;
+        width: 100vw;
+    }
+
+    .footer-content{
+        margin-bottom: 25px;
+    }
+
+    .hero-text{
+        width: 80%;
+        font-size: 36px;
+        height: 20%;
+        color: white;
+        position: absolute;
+        font-weight: 400;
+        top: -650px;
+        left: 20px;
+        right: 0;
+        z-index: 24;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        line-height: 40px;
+    }
+
+    .join-text{
+        font-size: 36px;
+        font-family: serif;
+        line-height: 40px;
+    }
+
+    .TC{
+        display: flex; flex-direction: column; width: 80%;
+    }
+
+    .menuTC{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+    }
+
+    .socialLinks{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socialItems{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .footer-heading{
+        font-size: 16px; margin: 0;
+    }
+
+    .testimony-header{
+        width: 100%;
+    }
+    
+    .main-menu,.last-menu{
+        display: none;
+    }
+
+    .nav-bar{
+        width: inherit;
+    }
+
+    .footer-content-container{
+        width: inherit;
+    }
+
+    .footer-content{
+        width: 100%;
+    }
+
+    .testimony-text{
+        width: 100%;
+        font-size: 30px;
+        margin: 0px;
+    }
+
+    .testimony-name{
+        margin-bottom: 20px !important;
+    }
+
+    video{
+        object-fit: none;
+    }
+
+}

@@ -33,33 +33,89 @@
       });
     </script>
   </head>
-  <body>
+  <body style="position: relative; height: auto">
+    <div class="nav-bar" id="nav">
+      <div class="logo">Air</div>
+      <div class="main-menu">
+        <div class="nav-element">
+          <a href="" style="margin-right: 3px">Research</a>
+          <img
+            src="/expand.png"
+            style="width: 10%; height: 10%; padding-top: 5px"
+            alt=""
+          />
+        </div>
+        <div class="nav-element">
+          <a href="" style="margin-right: 3px">Product</a>
+          <img
+            src="/expand.png"
+            style="width: 10%; height: 10%; padding-top: 5px"
+            alt=""
+          />
+        </div>
+        <div class="nav-element">
+          <a href="" style="margin-right: 3px">Developer</a>
+          <img
+            src="/expand.png"
+            style="width: 10%; height: 10%; padding-top: 5px"
+            alt=""
+          />
+        </div>
+        <div class="nav-element">
+          <a href="" style="margin-right: 3px">Safety</a>
+          <img
+            src=""
+            style="
+              visibility: hidden;
+              width: 10%;
+              height: 10%;
+              padding-top: 5px;
+            "
+            alt=""
+          />
+        </div>
+        <div class="nav-element">
+          <a href="" style="margin-right: 3px">Company</a>
+          <img
+            src="/expand.png"
+            style="width: 10%; height: 10%; padding-top: 5px"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="last-menu">
+        <a href="">Search</a>
+        <div class="nav-element">
+          <a href="" style="margin-right: 3px">Login</a>
+          <img
+            src="/Up.png"
+            style="width: 15%; height: 15%; padding-top: 5px; rotate: 45deg"
+            alt=""
+          />
+        </div>
+        <button style="line-height: 30px">
+          Sign Up
+          <span
+            ><img
+              src="/Up.png"
+              style="width: 15%; height: 15%; rotate: 45deg"
+              alt=""
+          /></span>
+        </button>
+      </div>
+    </div>
+    <div class="hero-text">
+      Creating safe AGI that benefits all of humanity
+      <br />
+      <br />
+      <button>Learn about Air</button>
+    </div>
     <div class="header" id="Header">
-      <div class="menu">
-        <div class="logo">FridayAI</div>
-        <div class="main-menu">
-          <!-- <a href="">Research</a>
-          <a href="">Product</a>
-          <a href="">Developer</a>
-          <a href="">Safety</a>
-          <a href="">Company</a> -->
-        </div>
-        <div class="last-menu">
-          <!-- <a href="">Search</a>
-          <a href="">Login</a> -->
-          <button>Contact Form</button>
-        </div>
-      </div>
-      <div class="hero-text">
-        Creating software that benefits humanity
-        <br />
-        <br />
-        <button>Learn about Air</button>
-      </div>
+      <video src="/bg-video.mp4" playsinline autoplay muted loop height="100%" width="100%"></video>
     </div>
     <div class="row-custom">
       <div class="header-end">
-        <h2>Enterprise software solutions</h2>
+        <h2>Pioneering research on the path to AGI</h2>
         <br />
         <a
           href=""
@@ -85,7 +141,7 @@
         >
       </div>
       <div class="header-end">
-        <h2>Management software solutions</h2>
+        <h2>Join us in shaping the future of technology</h2>
         <br />
         <a
           href=""
@@ -111,31 +167,32 @@
       <div class="latest-update-img-row">
         <div class="latest-update-img-container">
           <img
-            src="/doctor.png"
+            src="/gpt-4-api-general-availability-and-final-update-to-the-completions-api.avif"
             alt=""
             width="100"
             height="100"
           />
           <br />
           <a href="" style="font-weight: 700; margin: 0"
-            >Air Technologies: Revolutionizing Healthcare with Our Newly Developed Remote Patient Monitoring System, Empowering Doctors and Patients Alike in the New Era of Digital Health</a
+            >GPT-4 API general availability and deprecation of older models in
+            the Completions API</a
           >
           <p style="margin: 0">Jul 6, 2023</p>
         </div>
         <div class="latest-update-img-container">
           <img
-            src="/Introducing.png"
+            src="/introducing-superalignment.avif"
             alt=""
             width="100"
             height="100"
           />
           <br />
           <a href="" style="font-weight: 700; margin: 0"
-            >Introducing Friday! An Ai focused on helping you do work.</a
+            >Introducing Superalignment</a
           >
           <p style="margin: 0">Jul 5, 2023</p>
         </div>
-        <!-- <div class="latest-update-img-container">
+        <div class="latest-update-img-container">
           <img src="/3J2A3934_3200.avif" alt="" width="100" height="100" />
           <br />
           <a href="" style="font-weight: 700; margin: 0"
@@ -155,7 +212,7 @@
             >Introducing Air London</a
           >
           <p style="margin: 0">Jun 28, 2023</p>
-        </div> -->
+        </div>
       </div>
     </div>
     <br />
@@ -169,7 +226,9 @@
       <h1 class="SAR-header">Safety & responsibility</h1>
       <div class="SAR-header">
         <h2 style="font-weight: 450">
-          At our core, we prioritize safety and responsibility in every aspect of our operations. As a software development company, we diligently safeguard client data, employing state-of-the-art encryption, rigorous security testing, and strict adherence to global privacy regulations.
+          Our work to create safe and beneficial AI requires a deep
+          understanding of the potential risks and benefits, as well as careful
+          consideration of the impact.
         </h2>
         <br />
         <a href="">Learn about safety</a>
@@ -184,7 +243,7 @@
     <div class="separator">
       <div style="border: 1px solid #fff"></div>
     </div>
-    <!-- <br />
+    <br />
 
     <div id="Research" class="SAR">
       <h1 class="SAR-header">Research</h1>
@@ -246,21 +305,17 @@
           <p style="margin: 0">Mar 14, 2023</p>
         </div>
       </div>
-    </div> -->
-
-    <!-- <br />
-    <br />
-    <img src="/stangel-2022-0052.webp" alt="" />
+    </div>
     <br />
     <br />
     <br />
     <div class="separator">
       <div style="border: 1px solid #fff"></div>
     </div>
-    <br /> -->
+    <br />
 
     <div id="Research" class="SAR">
-      <h1 class="SAR-header">Projects</h1>
+      <h1 class="SAR-header">Products</h1>
       <div class="SAR-header">
         <h2 style="font-weight: 450">
           Our API platform offers our latest models and guides for safety best
@@ -341,7 +396,8 @@
       <h1 class="SAR-header">Careers at Air</h1>
       <div class="SAR-header">
         <h2 style="font-weight: 450">
-          Developing safe and beneficial software requires people from a wide range of disciplines and backgrounds.
+          Developing safe and beneficial AI requires people from a wide range of
+          disciplines and backgrounds.
         </h2>
         <br />
         <a href="">View careers</a>
@@ -379,9 +435,7 @@
     <div class="separator">
       <div style="border: 1px solid #fff"></div>
     </div>
-    <h1 style="font-size: 72px; margin-right: 20px; margin: 0 30px">
-      Management software solutions.
-    </h1>
+    <div class="join-text">Join us in shaping the future of technology.</div>
     <br />
     <div style="margin: 30px">
       <button style="width: 100%; height: 80px; font-size: 24px">
