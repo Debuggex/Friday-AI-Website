@@ -140,7 +140,7 @@ button:hover{
     color: white;
     position: absolute;
     font-weight: 500;
-    top: -250px;
+    top: -200px;
     left: 16%;
     z-index: 24;
     display: flex;
@@ -323,7 +323,7 @@ img{
         color: white;
         position: absolute;
         font-weight: 400;
-        top: -650px;
+        top: -70px;
         left: 20px;
         right: 0;
         z-index: 24;
