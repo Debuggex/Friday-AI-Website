@@ -395,14 +395,17 @@ input[type=text]{
     }
 
     .hero-text{
-        width: 90%;
+        width: 80vw;
         font-size: 36px;
-        height: 20%;
+        height: 100vh;
         color: white;
         position: absolute;
         font-weight: 400;
-        top: -300px;
-        left: 20px;
+        /* top: 0; */
+        /* bottom: 0; */
+        left: 0;
+        margin: auto;
+        margin-top: 20vw;
         right: 0;
         z-index: 24;
         display: flex;
